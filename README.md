@@ -16,9 +16,9 @@ poetry run pulumi up
 ```
 
 
-Pull the desdired model; call the local ollama service.
+Pull the desired model; call the local ollama service.
 ```
-export PORT = 60942
+export PORT = xxx
 curl http://127.0.0.1:{$PORT}/api/pull -d '{ 
   "name": "phi3"
 }'
@@ -30,3 +30,4 @@ curl http://127.0.0.1:{$PORT}/api/tags
 
 Interact with the OpenWebUI service. 
 
+g
