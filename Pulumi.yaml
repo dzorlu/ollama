@@ -1,0 +1,4 @@
+name: ollama
+runtime:
+  name: python
+description: A minimal Ollama deployment

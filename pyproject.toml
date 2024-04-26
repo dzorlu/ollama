@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ollama"
+version = "0.1.0"
+description = "local llm"
+authors = ["Deniz Zorlu <dzorlu@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "3.11"
+pulumi = "^3.99.0"
+pulumi-kubernetes = "^4.6.1"
+pulumi_docker = "4.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
